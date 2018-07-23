@@ -1,0 +1,399 @@
+
+body {
+    margin: 0;
+    background-color: rgb(231, 231, 231);
+    }
+    
+    
+    #rijksoverheid{
+        
+    padding-left: 750px;
+    
+    }
+    
+    .container{
+        width: 95%;
+        margin: 0 auto;
+    }
+    
+    header {
+    background-color:#3B5998;
+    color: white;    
+    }
+    
+    
+    header::after {
+    content: "";
+    display: table;
+    clear:both;
+    
+    } 
+    
+    nav {
+    
+        float: right;
+    
+    }
+    
+    nav ul {
+    
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    
+    nav li {
+    
+        display: inline-block;
+        margin-left: 70px;
+        padding: 20px;
+        position: relative;
+     
+    }
+    
+    nav a:hover{
+    
+        color :red;
+    }
+    nav a {
+    
+        color:white;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    
+    nav a::before{
+        content:"";
+        display: block;
+        height: 5px;
+        background-color:red;
+        position: absolute;
+        top:0;
+        width: 0%;
+        transition: all ease-in-out 250ms;
+    }
+    
+    nav a:hover::before {
+        width: 80%;
+    }
+    
+    
+    .home-list {
+    
+        background-image: url("rijk2.jpg");
+    
+    
+    }
+    
+    .home-list li {
+       
+        
+        padding: 5px;
+        list-style: none;
+        font-size: 17px;
+        font-weight: bold;
+        
+    }
+    
+    .home-list a {
+    
+        text-decoration:none;
+        font-family: sans-serif;
+        font-style: italic;
+        font-weight: bold;
+        color:#3B5998;
+        background-color: white;
+    }
+    
+    .home-list a:hover{
+    
+        color:red;
+    }
+    
+    
+    
+    
+    .search {
+      width: 100%;
+      position: relative
+    }
+    
+    .searchTerm {
+      float: left;
+      width: 100%;
+      border: 3px solid #3B5998;
+      padding: 5px;
+      height: 20px;
+      color: #9DBFAF;
+    }
+    
+    
+    .searchButton {
+      position: absolute;  
+      right: -50px;
+      width: 40px;
+      height: 36px;
+      border: 1px solid #3B5998;
+      background-color: #3B5998;
+      color: white;
+      text-align: center;
+      font-size: 20px;
+    }
+    
+    
+    .wrap{
+      width: 20%;
+      position: absolute;
+      top: 35%;
+      left: 60%;
+      
+    }
+    
+    ul {
+        list-style: none;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 30px;
+      }
+      
+    #menu{
+        background-color:white;
+        overflow: hidden;
+    }
+    
+    #menu .menu-item{
+        
+        float: left;
+    }
+    
+    .menu-item {
+        
+        box-sizing: border-box;
+        font-size: 20px;
+        height: 200px;
+        margin: 25px;
+        width:20%;
+      
+      }
+      
+    .menu-item a{
+    
+        text-decoration:none;
+        color:#3B5998;
+        font-weight: bold;
+        font-family: fantasy;
+        font-size: 30px;
+    
+      }
+    
+    .menu-item a:hover{
+        color: red;
+        text-decoration: underline;
+      }
+    
+    
+     #short{
+    
+        overflow: hidden;
+    }
+    
+    #short .short-item{
+        
+        float: left;
+    }
+    
+    .short-item {
+        
+        box-sizing: border-box;
+        font-size: 20px;
+        height: 400px;
+        margin-right: 55px;
+        margin-left: 20px;
+        width:28%;
+      
+      }
+    
+    .short-item a{
+    
+        text-decoration:none;
+        color:#3B5998;
+        font-family: fantasy;
+        font-size: 28px;
+    
+      }
+    
+      .short-item a:hover{
+        color: red;
+        text-decoration: underline;
+      }
+    
+    
+    #short-img{
+    
+        width:110%;
+     
+    }
+    
+    h2{
+    
+        padding-left: 80px;
+        font-family:fantasy;
+        font-size: 30px;
+        
+    }
+    h3{
+    
+       font-size: 18px;
+       font-weight: bold;
+       
+    }
+    
+    
+    #news{
+    
+        overflow: hidden;
+      
+    }
+    
+    #news .news-item{
+        
+        float: left;
+    }
+    
+    .news-item {
+        
+        box-sizing: border-box;
+        font-size: 20px;
+        height: 370px;
+        margin: 30px;
+        width:25%;
+      
+      }
+    .news-item:nth-child(7){
+    
+        height:20px;
+      }
+      
+    
+    .news-item a{
+    
+        text-decoration:none;
+        color:#3B5998;
+        font-family: fantasy;
+        font-size: 26px;
+    
+      }
+    
+    .news-item a:hover{
+        color: red;
+        text-decoration:underline;
+      }
+    
+    .contact-item a{
+    
+        text-decoration:none;
+    
+     }
+       
+      .contact-item {
+        box-sizing: border-box;
+      }
+    
+    #contact .contact-item{
+        
+        float: left;
+    }
+    
+    .contact-item {
+        border: 3px solid grey;
+        font-size: 20px;
+        height: 300px;
+        margin: 150px;
+        width:28%;
+        text-align: center;
+        padding-bottom: 100px;
+        padding-top: 0px;
+        overflow: hidden;
+        line-height: 30px;
+        background-color: white;
+        
+      
+      }
+      
+    h4{
+          font-size: 40px;
+          color:#3B5998;
+      }
+    
+    
+    h5{
+    
+        font-size: 40px;
+        color: rgb(143, 24, 24)
+      }
+    
+    .contact-p{
+       font-size:25px;
+       color: black;
+      }
+    
+    
+    .contact-item:hover{
+    
+        box-shadow: 0px 0px 5px 3px red;
+        
+      }
+    
+    #white{
+    
+        background-color: white;
+       }
+    
+    #Service{
+    
+        overflow: hidden;
+        float: left;
+        width: 30%;
+    }
+    
+    
+    .Service-item {
+        
+        box-sizing: border-box;
+        font-size: 30px;
+        height: 5px;
+        margin: 30px;
+        width:80%;
+        
+      
+      }
+    
+    
+    .Service-item a{
+    
+        text-decoration:none;
+        color:#3B5998;
+        font-family: fantasy;
+        font-size: 18px;
+    
+      }
+    
+    .Service-item a:hover{
+        color: red;
+        text-decoration: underline;
+      }
+    
+    
+    h6{
+    padding-right:400px;
+    margin-left: 40px;
+    font-size: 25px;
+    font-family: initial;
+    
+    
+    }
+    
+    
+    
+    
+    
